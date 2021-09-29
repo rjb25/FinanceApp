@@ -9,7 +9,7 @@ export default function App() {
 
       <Button 
 title="Click Me" 
-	onPress={() => Alert.alert("Who is little girl", "So is Zach", [{text:"yes"},{text:"YES"}])}/>
+	onPress={() => Alert.alert("Who else is little girl", "So is Jason", [{text:"no"},{text:"YES"}])}/>
     </SafeAreaView>
   );
 }
